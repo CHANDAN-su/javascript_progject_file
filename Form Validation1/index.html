@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <main class="main">
+        <div class="btn__container">
+          <div class="background-color"></div>
+          <button class="btn btn--login btn--form">Log In</button>
+          <button class="btn btn--registration btn--form">Register</button>
+        </div>
+        <div class="fonts__container">
+          <a
+            href="https://github.com/busarishakrullahi/Top-100-Projects/tree/main/Form%20Validation"
+            target="_blank"
+            class="fonts__link"
+          >
+            <svg class="fonts fonts--github fonts--white">
+              <use xlink:href="img/icons.svg#icon-github"></use>
+            </svg>
+          </a>
+          <a
+            href="https://web.facebook.com/"
+            target="_blank"
+            class="fonts__link"
+          >
+            <svg class="fonts fonts--facebook fonts--white">
+              <use xlink:href="img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="fonts__link">
+            <svg class="fonts fonts--twitter fonts--white">
+              <use xlink:href="img/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </div>
+        <section class="form__container">
+          <form class="form__details form__login">
+            <div class="form__input-group">
+              <input
+                type="text"
+                class="form__input form__username--login"
+                name="username"
+                placeholder="User Name"
+              />
+              <span class="error-message">&nbsp;</span>
+            </div>
+            <div class="form__input-group">
+              <div class="form__control">
+                <input
+                  type="password"
+                  name="password"
+                  class="form__input form__password--login password"
+                  placeholder="Enter Password"
+                />
+                <button class="btn btn--show">
+                  <svg class="fonts icon--show">
+                    <use xlink:href="img/icons.svg#icon-eye-hidden"></use>
+                  </svg>
+                </button>
+              </div>
+              <span class="error-message">&nbsp;</span>
+            </div>
+            <button type="submit" class="btn btn--login-form btn--submit">
+              Login Form
+            </button>
+          </form>
+          <form class="form__details form__registration">
+            <div class="form__input-group">
+              <input
+                type="text"
+                class="form__input form__username--register"
+                name="username"
+                placeholder="User Name"
+              />
+              <span class="error-message">&nbsp;</span>
+            </div>
+            <div class="form__input-group">
+              <input
+                type="text"
+                class="form__input form__email--register"
+                name="email"
+                placeholder="Email"
+              />
+              <span class="error-message">&nbsp;</span>
+            </div>
+            <div class="form__input-group">
+              <div class="form__control">
+                <input
+                  type="password"
+                  class="form__input form__password--register password"
+                  name="passowrd"
+                  placeholder="Enter Password"
+                />
+                <button class="btn btn--show">
+                  <svg class="fonts icon--show">
+                    <use xlink:href="img/icons.svg#icon-eye-hidden"></use>
+                  </svg>
+                </button>
+              </div>
+              <span class="error-message">&nbsp;</span>
+            </div>
+            <div class="form__input-group">
+              <div class="form__control">
+                <input
+                  type="password"
+                  class="form__input confirm__password--register password"
+                  name="confirm passowrd"
+                  placeholder="Confirm Password"
+                />
+                <button class="btn btn--show">
+                  <svg class="fonts icon--show">
+                    <use xlink:href="img/icons.svg#icon-eye-hidden"></use>
+                  </svg>
+                </button>
+              </div>
+              <span class="error-message">&nbsp;</span>
+            </div>
+            <button type="submit" class="btn btn--register-form btn--submit">
+              Register Form
+            </button>
+          </form>
+        </section>
+      </main>
+      <footer class="footer">
+        Design by
+        <a
+          href="https://github.com/busarishakrullahi/Top-100-Projects/tree/main/Form%20Validation"
+          target="_blank"
+          class="footer__link"
+          >busari shakrullahi</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
